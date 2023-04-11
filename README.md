@@ -1,3 +1,3 @@
 # projeto-final-preta-lab
 
-Último projeto do PRETALAB. Portfolio envolvendo CSS, HTML e JS.
+Último projeto do PRETALAB. Portfólio envolvendo CSS, HTML e JS.
