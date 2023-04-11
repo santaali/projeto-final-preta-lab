@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- chamando o ícone na aba do navegador -->
+  <link rel="shortcut icon" href="./img/foto-perfil.png">
+  <!-- tag para inserirmos icones de uma lib externa no nosso HTML -->
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+</head>
+
+<body>
+  <!-- cabeçalho da nossa página, visível ao usuário -->
+
+  <header class="header-menu">
+    <nav>
+      <ul class="lista-menu">
+        <li><a href="#formacao">Formação</a> </li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contatos">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- corpo da nossa página, visível ao usuário -->
+  <main>
+    <section class="principal">
+      <article class="subcontainer-principal container">
+      <div>
+        <img src="img/foto-perfil.png" alt="Minha imagem de perfil" class="avatar">
+      </div>
+      <div>
+        <h1 class="nome-completo">Alice Alves</h1>
+        <h2 class="profissao">Aprendiz Data-Science e Front-End</h2>
+      </div>
+      <div class="texto-sobre">
+        <p>
+          Uma menina de Minas, querendo se aventurar e se tornar pró em programação! Atualmente sou graduanda do curso de Ciências Sociais.
+        </p>
+      </div>
+    </article>
+    </section>
+
+    <section id="formacao" class="formacao">
+      <article class="container article-lista">
+      <div>
+        <h3 class="topico-principal">Formação</h3>
+      </div>
+
+      <div class="lista-item">
+        <ul>
+          <li>
+            <p class="lista-titulo">Ciclo formativo</p>
+            <a href="https://www.pretalab.com/formacao" target="_blank">Pretalab Olabi</a>
+            <p>
+              Formação introdutória à tecnologia: módulos de JS, HTML e CSS.
+            </p>
+          </li>
+
+          <li>
+            <p class="lista-titulo">Ciências Sociais</p>
+            <a href="https://unimontes.br/" target="_blank">Unimontes</a>
+            <p>
+              Compreensão dos processos de criação e efetivação do trabalho de pesquisa social sobre temas variados: trabalho, renda, pobreza e desigualdades sociais, manifestações culturais, artes, questões raciais e de gênero, cidades, violência e criminalidade, comunidades camponesas e indígenas, meio ambiente, direitos humanos, comportamento político, comportamentos no campo econômico, de indivíduos e grupos sociais, enfim, no passado e no presente. O curso abriga um conjunto de disciplinas de formação teórica geral e específica (Antropologia, Ciência Política e Sociologia), e um conjunto de disciplinas metodológicas que enfatizam métodos e técnicas de pesquisa na área de Ciências Sociais.
+            </p>
+          </article>
+          </li>
+        </ul>
+
+      </div>
+
+    </section>
+    <section id="portfolio" class="portfolio">
+      <article class="container article-lista">
+        <div>
+
+          <h3 class="topico-principal">Portfólio</h3>
+        </div>
+        <div class="lista-item">
+          <ul>
+            <li>
+              <p class="lista-titulo">Calculadora e Média</p>
+              <a href="https://www.pretalab.com/formacao" target="_blank">PretaLab</a>
+              <p>Projeto final do módulo de lógica de programação da parceria entre PretaLab e Disney com o curso Poder do Futuro.</p>
+              <a href="https://github.com/santaali/ProjetoFinal_PretaLab-Disney-LP.git">Aqui</a> 
+            </li>
+
+            <li>
+              <p class="lista-titulo">Site tema: Mario</p>
+              <a href="https://devemdobro.com/matriculas-abertas/" target="_blank">Dev em Dobro</a>
+              <p>Oficina de 5 dias para construção do design de um site, tendo como tema o novo filme do Mario que foi lançado em abril de 2023.</p>
+              <a href="https://github.com/santaali/oficinaDevEmDobro.git">Aqui</a>
+            </li>
+
+            <li>
+              <p class="lista-titulo">Meu primeiro Portfólio</p>
+              <a href="http://www.ifto.edu.br/ifto/reitoria/pro-reitorias/proex/qualificacao-profissional/novoscaminhos" target="_blank">IFTO</a>
+              <p>Repositório dedicado a minha primeira página de portfólio feito no curso Novos Caminhos.</p>
+              <a href="https://github.com/santaali/santaali.github.io.git">Aqui</a>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- rodapé da nossa página, visível ao usuário -->
+  <footer id="contatos" class="rodape">
+    <div class="container">
+      <ul class= "lista-rodape">
+        <!-- a tag <i> junto com a class chama o ícone da lib externa que chamamos na tag head -->
+        <li><i class="fas fa-envelope-square" class="estilo-icone"></i>
+          <a href="mailto:alicealves065@gmail.com" target="_blank" class="links">alicealves065@gmail.com</a>
+        </li>
+        <li><i class="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/alice-alves-46b063176/" target="_blank" class="links">alicealves</a>
+        </li>
+        <li><i class="fab fa-github-square"></i>
+          <a href="https://github.com/santaali" target="_blank" class="links">santaali</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+
+</html>
